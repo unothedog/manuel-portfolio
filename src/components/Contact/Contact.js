@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="awesome">
           {/* darkMode */}
           <span style={{ color: darkMode ? 'white' : '' }}>
-            Excited hear something from you!
+            Excited to hear something from you!
           </span>
           <span>Contact me</span>
         </div>
