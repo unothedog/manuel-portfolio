@@ -4,7 +4,7 @@ import './Navbar.css';
 import { Link } from 'react-scroll';
 import Resume from './resume.pdf';
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
@@ -16,26 +16,26 @@ const navbar = () => {
         <div className="n-list">
           <ul style={{ listStyleType: 'none' }}>
             <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+              <Link activeClass="active" to="Navbar" smooth={true}>
                 Home
               </Link>
             </li>
-            <Link to="about" spy={true} smooth={true}>
+            <Link to="services" smooth={true}>
               About me
             </Link>
             <li>
-              <Link to="framework" spy={true} smooth={true}>
+              <Link to="works" smooth={true}>
                 Skills
               </Link>
             </li>
 
             <li>
-              <Link to="portfolio" spy={true} smooth={true}>
+              <Link to="portfolio" smooth={true}>
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="contact" spy={true} smooth={true}>
+              <Link to="contact" smooth={true}>
                 Contact
               </Link>
             </li>
@@ -49,4 +49,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
