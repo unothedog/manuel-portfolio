@@ -20,11 +20,11 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <Link to="services" smooth={true}>
+            <Link to="about" smooth={true}>
               About me
             </Link>
             <li>
-              <Link to="works" smooth={true}>
+              <Link to="framework" smooth={true}>
                 Skills
               </Link>
             </li>

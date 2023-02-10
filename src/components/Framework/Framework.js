@@ -12,6 +12,7 @@ import react from '../../img/react-removebg-preview.png';
 import mongodb from '../../img/mongodb-removebg-preview.png';
 import bootstrap from '../../img/bootstrap-removebg-preview.png';
 import htmlcssjs from '../../img/htmlcssjs-removebg-preview.png';
+import { Margin } from '@mui/icons-material';
 
 const Framework = () => {
   // context
@@ -20,7 +21,7 @@ const Framework = () => {
 
   // transition
   return (
-    <div className="works" id="works">
+    <div className="works" id="framework">
       {/* left side */}
       <div className="w-left">
         <div className="awesome">
@@ -51,14 +52,53 @@ const Framework = () => {
         {/* <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle yellowCircle"></div> */}
         <div>
-          <img src={sweetalert} alt="" style={{ maxWidth: '10rem' }} />
-          <img src={redux} alt="" style={{ maxWidth: '9rem' }} />
-          <img src={antui} alt="" style={{ maxWidth: '8rem' }} />
-          <img src={mui} alt="" style={{ maxWidth: '12rem' }} />
-          <img src={react} alt="" style={{ maxWidth: '5rem' }} />
-          <img src={bootstrap} alt="" style={{ maxWidth: '10rem' }} />
-          <img src={htmlcssjs} alt="" style={{ maxWidth: '10rem' }} />
-          <img src={emailjs} alt="" style={{ maxWidth: '12rem' }} />
+          <img
+            src={htmlcssjs}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+          <img
+            src={bootstrap}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+
+          <img
+            src={antui}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+          <img
+            src={mui}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+          <img
+            src={sweetalert}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+
+          <img
+            src={react}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+          <img
+            src={redux}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+          <img
+            src={mongodb}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
+          <img
+            src={nodeexpress}
+            alt=""
+            style={{ maxWidth: '150px', maxHeight: '100px', margin: '30px' }}
+          />
         </div>
       </div>
     </div>

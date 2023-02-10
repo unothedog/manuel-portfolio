@@ -29,7 +29,7 @@ const Contact = () => {
           console.log(result.text);
           swal({
             title: 'Message Sent!',
-            text: 'Thanks for Contacting us!',
+            text: 'Thanks for Contacting, I will get back to you soon!',
             icon: 'success',
             button: 'Ok',
           });
@@ -47,7 +47,9 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{ color: darkMode ? 'white' : '' }}>Get in Touch</span>
+          <span style={{ color: darkMode ? 'white' : '' }}>
+            Excited hear something from you!
+          </span>
           <span>Contact me</span>
         </div>
       </div>
